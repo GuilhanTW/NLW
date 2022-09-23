@@ -46,7 +46,6 @@ body* {
 }
 
 header{
-    /*text-align: center;*/ /*centralizar texto, div não conta como texto*/
     padding-top: 32px;
     height: calc(120px + 32px);
 }
@@ -123,8 +122,6 @@ section p {
     color: #A1A1AA;
 }
 
-/* animation */
-
 @keyframes fromTop {
     from {
         opacity: 0;
@@ -147,16 +144,3 @@ section p {
         transform: translateY(0);
     }
 }
-/*@keyframes fromLefttoRight {
-    from{
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-
-    to{
-        opacity: 1;
-        transform: translateX(0);
-    }
-}*/
-
-
